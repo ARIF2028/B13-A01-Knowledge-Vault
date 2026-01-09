@@ -3,13 +3,29 @@
     padding: 0;
 }
 
-
+/* nav-bar */
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 120px;
+}
+
+.link-parent {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+
+}
+
+.link-parent a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(14, 59, 206);
 }
 
 nav button {
@@ -19,13 +35,13 @@ nav button {
     cursor: pointer;
 }
 
-/* nav button:hover */
-
 .primary-btn {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
 }
+
+
 
 /* hero-section */
 .hero-container {
@@ -102,21 +118,6 @@ nav button {
     text-align: center;
 }
 
-.link-parent {
-    display: flex;
-    gap: 32px;
-    list-style: none;
-
-}
-
-.link-parent a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
-    color: rgb(14, 59, 206);
-}
 
 .btn-parent {
     display: flex;
@@ -148,7 +149,6 @@ a:hover {
 }
 
 .btn img {
-    /* border: 1px solid black; */
     background-color: rgba(249, 85, 85, 1);
     padding: 10px;
     border-radius: 40px;
@@ -217,6 +217,8 @@ a:hover {
 
 }
 
+/* challange-container section */
+
 .challange-container {
     text-align: center;
     margin: 2px 298px 0px 300px;
@@ -245,6 +247,7 @@ a:hover {
     padding: 10px 15px;
     border-radius: 8px;
     background-color: #30B868;
+    cursor: pointer;
 }
 
 .challange-container .primary2 {
