@@ -168,6 +168,60 @@ a:hover {
 
 }
 
+/* knowledge section  */
+.knowledge-container img {
+    padding: 120px 0px 120px 320px;
+}
+
+.knowledge-parent {
+    display: flex;
+    gap: 60px;
+}
+
+.text {
+    padding-top: 222px;
+}
+
+.text h5 {
+    color: #30B868;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.text h2 {
+    font-size: 48px;
+
+}
+
+.text p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin: 7px 0;
+}
+
+.text ul {
+    list-style: none;
+
+}
+
+.text ul li {
+    margin-bottom: 10px;
+}
+
+.text ul li::before {
+    content: url(../assets/CheckCircle.png);
+
+}
+
+
+
+
+
+
+
+
+
 .footer-prent {
     display: flex;
 }
