@@ -95,10 +95,11 @@ nav button {
 
 }
 
-/* nav img {
-    height: 60px;
-    width: 139px;
-} */
+/* nots-section */
+
+.nots-container {
+    text-align: center;
+}
 
 .link-parent {
     display: flex;
@@ -118,13 +119,32 @@ a:hover {
 
 .btn-parent {
     display: flex;
+    padding-left: 340px;
     gap: 24px;
 
 }
 
+
+.nots-title {
+    margin-top: 40px;
+    color: #001931;
+    font-size: 48px;
+}
+
+.nots-p {
+    margin-top: 16px;
+    margin-bottom: 44px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+
+}
+
 .btn {
-    border: 1px solid red;
+    border: 1px solid whitesmoke;
     border-radius: 8px;
+    padding: 70px 24px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .btn img {
@@ -138,6 +158,14 @@ a:hover {
     font-size: 24px;
     font-weight: 600;
     line-height: 29px;
+    padding: 8px 0;
+}
+
+.btn p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+
 }
 
 .footer-prent {
