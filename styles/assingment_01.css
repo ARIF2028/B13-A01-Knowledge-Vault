@@ -214,14 +214,40 @@ a:hover {
 
 }
 
+.challange-container {
+    text-align: center;
+    margin: 2px 320px 0px 320px;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    background-color: #F7F6F2;
+}
 
+.challange-container h2 {
+    padding-top: 80px;
+    font-size: 40px;
+}
 
+.challange-container p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
 
+.last.last-btn {
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-right: 10px;
+    background-color: #30B868;
+}
 
+/* footer section  */
 
-
-
+footer {
+    border: 1px solid red;
+    text-align: center;
+}
 
 .footer-prent {
+
     display: flex;
 }
